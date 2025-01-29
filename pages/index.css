@@ -13,6 +13,7 @@
   background-color: #ffffff;
   background-image: url(../images/background_header.svg);
   background-size: cover;
+  background-position: center;
   position: relative;
   height: 800px;
   padding: 30px 80px 40px;
