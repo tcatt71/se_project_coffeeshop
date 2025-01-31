@@ -140,11 +140,15 @@
   margin-bottom: 24px;
 }
 
-.recipes__video-caption {
+.recipes__iframe-text {
   display: flex;
   justify-content: space-between;
+}
+
+.recipes__video-caption {
   color: #fff;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  margin: 0;
 }
