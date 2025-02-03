@@ -1,3 +1,6 @@
+.form {
+}
+
 .form__fieldset {
   display: flex;
   flex-direction: column;
@@ -22,6 +25,7 @@
 }
 
 .form__input {
+  box-sizing: border-box;
   width: 385px;
   max-width: 385px;
   line-height: 30px;
