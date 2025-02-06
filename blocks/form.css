@@ -5,9 +5,9 @@
 }
 
 .form__fieldset {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  row-gap: 32px;
+  row-gap: 32px; */
   padding: 0;
   border: none;
   margin: 0;
@@ -35,6 +35,10 @@
   padding: 15px 20px;
   border: 1px solid #838383;
   border-radius: 4px;
+}
+
+.form__input:not(:last-child) {
+  margin: 0 0 32px;
 }
 
 .form__input::placeholder {
