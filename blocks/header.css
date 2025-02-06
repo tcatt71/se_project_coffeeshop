@@ -10,6 +10,7 @@
   position: relative;
   height: 800px;
   padding: 30px 80px 40px;
+  z-index: 1;
 }
 
 .header__title {
@@ -20,7 +21,6 @@
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
-  z-index: 1;
 }
 
 .header__span-accent {
@@ -39,7 +39,6 @@
   line-height: 30px;
   margin-top: 28px;
   margin-bottom: 0;
-  z-index: 1;
 }
 
 .header__image {
@@ -47,6 +46,7 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__footer {
