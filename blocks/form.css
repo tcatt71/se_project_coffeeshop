@@ -5,9 +5,6 @@
 }
 
 .form__fieldset {
-  /* display: flex;
-  flex-direction: column;
-  row-gap: 32px; */
   padding: 0;
   border: none;
   margin: 0;
